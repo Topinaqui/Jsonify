@@ -1,0 +1,26 @@
+{
+  "name": "Jsonify",
+  "title": "Jsonify",
+  "description": "jQuery plugin to transform .xml files into JSON",
+  "version": "1.0.0",
+  "homepage": "https://github.com/aion/jsonify",
+  "author": {
+    "name": "Franklin Oliveira Da Veiga",
+    "email": "aionprofile@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aion/jsonify.git"
+  },
+  "bugs": "https://github.com/aion/jsonify/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://fov.mit-license.org/"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.8"
+  },
+  "keywords": ["jquery", "plugin", "jsonify", "json", "xml"]
+}
