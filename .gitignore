@@ -1,5 +1,7 @@
+nbproject/
 dist/
 node_modules/
 **/*.*~
 *.*~
 
+/nbproject/private/
