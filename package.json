@@ -1,0 +1,40 @@
+{
+  "name": "Jsonify",
+  "version": "1.1.2",
+  "title": "Jsonify jQuery plugin",
+  "description": "jQuery plugin to transform .xml files into JSON",
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/Topinaqui/Jsonify/issues",
+    "email": "aionprofile@hotmail.com"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "default": "grunt default"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://fov.mit-license.org/"
+    }
+  ],
+  "author": {
+    "name": "Franklin Oliveira Da Veiga",
+    "email": "aionprofile@hotmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Topinaqui/Jsonify.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "^0.4.5"
+   
+  }
+}
