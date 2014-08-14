@@ -2,7 +2,7 @@
   "name": "Jsonify",
   "title": "Jsonify",
   "description": "jQuery plugin to transform .xml files into JSON",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "homepage": "https://github.com/aion/jsonify",
   "author": {
     "name": "Franklin Oliveira Da Veiga",
