@@ -15,13 +15,14 @@ Installing
 
 Usage
 -----
-
+```html
 <script type="text/javascript">
-...
-  (function(data){
+
+... (function(data){
                 
                  var result = $.jsonify(data);
                 
             });
 ...
 </script>
+```
