@@ -12,3 +12,16 @@ Installing
 <script src="jquery.js"></script>
 <script src="jquery.Jsonify.js"></script>
 ```
+
+Usage
+-----
+
+<script type="text/javascript">
+...
+  (function(data){
+                
+                 var result = $.jsonify(data);
+                
+            });
+...
+</script>
