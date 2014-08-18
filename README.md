@@ -16,6 +16,8 @@ Installing
 Usage
 -----
 ```html
+1. In a callback function
+
 <script type="text/javascript">
 
 ... (function(data){
