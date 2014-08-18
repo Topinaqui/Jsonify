@@ -8,6 +8,6 @@ Installing
 
 1. Download the zipped package
 2. Include the plugin in your application
-```javascript
+```html
 <script src="jquery.Jsonify.js"></script>
 ```
