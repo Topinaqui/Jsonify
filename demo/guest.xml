@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <guest>
-    <id>
-        65535
-    </id>
-    <name>
-        Mario Int. Garcia II
-    </name>
+	<id>
+		65535
+	</id>
+	<name>
+		Mario Int. Garcia II
+	</name>
+	<casa>
+		Apt
+	</casa>
 </guest>

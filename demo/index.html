@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>jQuery Jsonify</title>
-        
-        <meta charset="utf-8" />
-    
-        
-        <script type="text/javascript" src="../libs/jquery/jquery.js"></script>
-        <script src="../src/jquery.Jsonify.js"></script> 
-        
-        <script type="text/javascript">
-     
-            $.ajax({
-                
-              type: "GET",
-              url: "guest.xml",
-              dataType: "xml"
-              
-            }).done(function(data){
-                
-                 var guestObj = $.jsonify(data);
-                 console.log(guestObj.guest_0.id_0.text);
-                 console.log(guestObj.guest_0.name_1.text);
-                 
-            });
-       </script>
-    </head>
-    <body>
+<head>
+  <title>jQuery Jsonify</title>
 
-    </body>
+  <meta charset="utf-8" />
+
+
+  <script type="text/javascript" src="../libs/jquery/jquery.js"></script>
+  <script src="../src/jquery.Jsonify.js"></script> 
+
+  <script type="text/javascript">
+
+    String.prototype.reverse = function() {
+      var txt = "";
+
+     var first = true;//;D
+
+     for(var letter = 0; letter < this.length; letter++) {
+
+      if(first){
+        txt += this[letter];
+        first = false;  
+      }else{
+        txt +=  '-' + this[letter];
+      }
+      
+    } 
+    return txt;
+  }
+
+  $.ajax({
+
+    type: "GET",
+    url: "guest.xml",
+    dataType: "xml"
+
+  }).done(function(data){
+
+   var guestObj = $.jsonify(data);
+   console.log(guestObj.guest_0.id_0.text);
+   console.log(guestObj.guest_0.name_1.text);
+
+ });
+</script>
+</head>
+<body>
+
+</body>
 </html>
