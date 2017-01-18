@@ -1,7 +1,7 @@
 Jsonify
 =======
 
-jQuery plugin to transform .xml files into JSON
+jQuery plugin to transform .xml files into JSON and make it ease to be acessed.
 
 Installing
 ----------
